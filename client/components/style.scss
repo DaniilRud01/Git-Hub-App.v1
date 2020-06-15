@@ -1,0 +1,49 @@
+html,
+body {
+  background: #1e1e1e;
+  box-sizing: border-box;
+  width: 100%;
+}
+.main {
+  background-image: url("../bgimage/1.jpg");
+  background-repeat: round;
+}
+.repo{
+  background-image: url("../bgimage/1.jpg");
+  background-repeat: round;
+  background-attachment: fixed;
+}
+.repolist{
+  background: #1e1e1e;
+}
+.search{
+  background: #1e1e1e;
+  border: solid 1px brown;
+  border-radius: 10px;
+  outline: none;
+  position: absolute;
+  right: 20px;
+  top: 100px;
+  padding-left: 10px;
+  transition: all 0.3s;
+}
+.search:hover{
+  box-shadow: 0 0 4px 0px #c53030;
+  transition: all 0.3s;
+}
+.header{
+  background: #1e1e1e;
+}
+.avatar{
+  border-radius: 10px;
+}
+.nav{
+  position: absolute;
+  right: 30px;
+}
+.login{
+  margin-right: 10px;
+}
+#root{
+  background: #1e1e1e;
+}
